@@ -1,5 +1,5 @@
 import React from "react";
-import TypeAnimation from "react-type-animation";
+// import TypeAnimation from "react-type-animation";
 import { motion } from "framer-motion";
 import "./About.css";
 import "../../components/atoms/PrimaryBtn/PrimaryBtn.css";
@@ -71,12 +71,6 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-
-      {/* My Skill */}
-      {/* <MySkill /> */}
-
-      {/* Education */}
-      {/* <Education /> */}
     </div>
   );
 };

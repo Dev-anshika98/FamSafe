@@ -7,9 +7,7 @@ import {
   RiFolderInfoFill,
 } from "react-icons/ri";
 import { GiCrossMark } from "react-icons/gi";
-import { FaHome, FaDownload } from "react-icons/fa";
-// import { MdWork } from "react-icons/md";
-// import { ImBlog } from "react-icons/im";
+import { FaHome } from "react-icons/fa";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import "../../../pages/shared/Shared.css";
@@ -24,7 +22,6 @@ export default function Navbar() {
   const navLinks = [
     { title: "Home", link: "/", icon: <FaHome /> },
     { title: "About", link: "/about", icon: <RiFolderInfoFill /> },
-    // { title: "Project", link: "/project", icon: <MdWork /> },
     { title: "Contact", link: "/contact", icon: <RiContactsBook2Fill /> },
     
   ];
@@ -34,8 +31,6 @@ export default function Navbar() {
       color: isActive && "#FF651C",
     };
   };
-
-  // Show Navbar on Scroll UP
   const [show, setShow] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   useEffect(() => {

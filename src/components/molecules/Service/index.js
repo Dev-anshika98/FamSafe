@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { BiPalette } from "react-icons/bi";
-import { FiServer } from "react-icons/fi";
 import mobile from "../../../assets/mobile.png";
-import target from "../../../assets/target (1).png";
 import map from "../../../assets/map.png";
 
 import urgent from "../../../assets/urgent.png";

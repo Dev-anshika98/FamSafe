@@ -1,22 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import { motion } from "framer-motion";
-// import Lottie from "react-lottie";
 import ImageMain from "../../../assets/HOME.jpg"
-import coding from "../../../assets/coding.json";
 import "../../../pages/shared/Shared.css";
-import { SecondaryBtn } from "../../../components";
 
 const Banner = () => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: coding,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
   return (
     <div className="parent min-h-[100vh] flex flex-col-reverse lg:flex-row items-center justify-between">
       <motion.div

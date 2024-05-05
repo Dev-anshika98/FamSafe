@@ -10,7 +10,7 @@ import aboutpic from "../../assets/about.jpg"
 
 const About = () => {
   return (
-    <div className="parent pt-16 my-16">
+    <div className="parent pt-16 my-16 ">
       <div className="">
         <motion.div
           className="mb-10"
